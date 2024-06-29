@@ -1,0 +1,82 @@
+
+button{
+    width: 75px;
+    height: 75px;
+    background: #74717182;
+    padding: 18px;
+    border-radius: 100%;
+   
+}
+ .lemoslider{
+    margin-top: 40px;
+    background-color: rgb(243, 169, 169);
+    color: white; 
+    border-radius: 10px;
+   
+} 
+.slide{
+    display: inline-block;
+    position: relative;
+   
+}
+.item {
+   
+    padding-left: 10px;
+   
+   
+}
+.imgcopy{
+    padding-right: 10px;
+    position: relative;
+    bottom: 0;
+    opacity: 1;
+   
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+.quotes{
+    position: absolute;
+    right: 100px;
+    top: 16px;
+    width: 70px;
+}
+
+.slick-next {
+    right: unset;
+    background: black;
+    top: unset;
+    bottom: -44px;
+    left: 15%;
+}
+.slick-prev {
+  
+    background: black;
+    z-index: 1;
+  
+    
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: transparent;
+    outline: none;
+     background: rgb(240, 8, 8)!important ;
+}
+.slick-prev.slick-arrow {
+   
+    bottom: -43px;
+    left: 12%;
+    top: unset;
+    
+}
+
+@media screen and (max-width: 767px) and (min-width: 465px) {
+    quotes {
+      /* font-size: 50px;
+      padding: 50px;
+      border: 8px solid black;
+      background: yellow; */
+      width: 40px;
+    }
+  }

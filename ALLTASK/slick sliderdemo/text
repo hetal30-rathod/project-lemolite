@@ -1,0 +1,32 @@
+ // autoplay: true, 
+//   dots: true,
+//   infinite: true,
+//   speed: 300,
+//   slidesToShow: 1,
+//   adaptiveHeight: true
+
+
+.arrow{
+   
+    display: flex;
+    align-items: center;
+    justify-content: left;
+   
+    
+} 
+.prev{
+   
+   height: 30PX;
+   width: 35PX;
+   /* border: 2PX solid white; */
+   border-radius: 50%;
+   background-color: gray;
+}
+.next{
+   
+    height: 30PX;
+    width: 35PX;
+    /* border: 2PX solid white; */
+    border-radius: 50%;
+    background-color: gray;
+ }
